@@ -27,7 +27,7 @@
         <ul id="result"> </ul>
         <!-- Do some awesome stuff here -->
     </div>
-    <div class="container cat-search" id="loading" >
+    <div class="container cat-search" id="load" >
             <img src="./public/img/cat.gif" height="100px" width="150px" id="cat1">
           
         
@@ -76,7 +76,7 @@
                 $("#submit-btn").click(function(){
 
                     $("#catwalk").show();
-                    $("#loading").hide();
+                    $("#load").hide();
 
                 
 
@@ -97,7 +97,7 @@
                         var users = res;
 
                         users.forEach(user => {
-                            items +="Search for Result"+document.getElementById("cat-keyword").value+`<li id="cont">${user.name}<br>${user.origin}<br>${user.description}<br><a href="${user.wikipedia_url}">${user.wikipedia_url}</a></li>`
+                            items +="Search for Result"+document.getElementById("cat-keyword").value+`<li id="con">${user.name}<br>${user.origin}<br>${user.description}<br><a href="${user.wikipedia_url}">${user.wikipedia_url}</a></li>`
                         });
                     
                         parsedata.append(items);
