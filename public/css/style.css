@@ -76,21 +76,21 @@ header{
     padding: 5px 20px;
     border: 0px;
 }
-#walk{
+#catwalk{
     position: absolute;
     top: 80%;
     left: 50%;
     transform: translate(-50%, 50%);
     display: none;
 }
-#loading{
+#load{
     position: absolute;
     top: 80%;
     left: 50%;
     transform: translate(-50%, 50%);
  
 }
-#cont{
+#con{
 
    
     display: flex;
